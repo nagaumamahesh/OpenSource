@@ -1,0 +1,17 @@
+name: 💡 Feature Request
+description: Suggest a feature.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We love feature requests!
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this needed?
